@@ -1,0 +1,38 @@
+node_modules
+bower_components
+build
+release
+vendor
+temp
+.idea
+.vscode
+
+# Translations
+languages/*.mo
+languages/*.po
+
+# Project Files
+dist
+!.dev/assets/shared/js/frontend/vendor/
+*.mo
+!.dev/tests/php/assets/*.mo
+
+# Editors
+*.esproj
+*.tmproj
+*.tmproject
+tmtags
+.*.sw[a-z]
+*.un~
+Session.vim
+*.swp
+
+# Mac OSX
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
